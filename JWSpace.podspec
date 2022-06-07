@@ -27,6 +27,6 @@ Pod::Spec.new do |spec|
   spec.frameworks = "Foundation", "UIKit"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.requires_arc = true
+  spec.requires_arc = true
 
 end
