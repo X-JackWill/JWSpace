@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/X-JackWill/JWSpace.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "Pod/Spec/*.swift"
+  spec.source_files  = "Pod/Space/**/*.swift"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.frameworks = "Foundation", "UIKit"
